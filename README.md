@@ -171,6 +171,8 @@ print(f"Treinamento levou {duration:.2f} segundos")
 
 ### Pontos Negativos
 
+- **Tutorial oficial**: O tutorial oficial do TensorFlow apresenta algumas falhas e, para que funcione corretamente, é necessário realizar diversos ajustes. Além disso, devido ao grande volume de dados e à quantidade de parâmetros utilizados, a execução pode levar mais de 10 horas quando não se dispõe de uma estrutura mais potente.
+
 - **Gap entre treino e validação:** A perda de treino caiu quase a zero, enquanto a validação estabilizou em torno de 1.1–1.2, indicando overfitting.
 
 - **Tempo de execução elevado:** Mesmo em GPU, o tempo por época ainda é relativamente alto devido ao tamanho das sequências e às operações de atenção, limitando a escalabilidade.
