@@ -133,13 +133,13 @@ print(f"Treinamento levou {duration:.2f} segundos")
 
 <p align="center"><strong>Figura 1 - Curvas de perda</strong></p>
 
-<p align="center"><img src="../docs/imagens/loss.png" alt="Figura 1 - Curvas de perda" width="500"></p>
+<p align="center"><img src="./docs/imagens/loss.png" alt="Figura 1 - Curvas de perda" width="500"></p>
 
 <p align="center"><strong>Fonte:</strong> Autoria própria.</p>
 
 <p align="center"><strong>Figura 2 - Curvas de perda Comparativo</strong></p>
 
-<p align="center"><img src="../docs/imagens/loss_comparativo.png" alt="Figura 2 - Curvas de perda Comparativo" width="500"></p>
+<p align="center"><img src="./docs/imagens/loss_comparativo.png" alt="Figura 2 - Curvas de perda Comparativo" width="500"></p>
 
 <p align="center"><strong>Fonte:</strong> Autoria própria.</p>
 
