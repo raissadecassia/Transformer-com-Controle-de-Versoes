@@ -1,6 +1,6 @@
 # Atividade Ponderada: Tradução usando Transformer com Controle de Versões
 
-> **Observação:** Esta atividade foi desenvolvida como parte de um exercício ponderado e é baseada no tutorial oficial do TensorFlow: [Transformer Tutorial](https://www.tensorflow.org/text/tutorials/transformer).
+> **Observação:** Esta atividade foi desenvolvida como parte de um exercício ponderado e é baseada no tutorial oficial do TensorFlow: [Transformer Tutorial](https://www.tensorflow.org/text/tutorials/transformer). Entretanto, o tutorial apresenta algumas falhas, sendo necessário realizar diversos ajustes para que funcione corretamente. 
 
 ---
 
@@ -152,6 +152,7 @@ print(f"Treinamento levou {duration:.2f} segundos")
 - **Fácil:** A construção básica do Transformer usando TensorFlow foi relativamente tranquila, graças à clareza da API do Keras e aos exemplos disponíveis na documentação. O uso do tokenizador oficial do TensorFlow Datasets também facilitou bastante o pré-processamento das frases em português e inglês, permitindo gerar batches de forma prática e eficiente.
 
 - **Difícil:** Um dos principais desafios foi ajustar corretamente as dimensões dos tensores, especialmente para embeddings, entradas do decoder e máscaras de atenção. Garantir que todos os tensores fossem compatíveis para operações como multi-head attention, adição residual e normalização exigiu atenção aos detalhes e alguns testes iterativos.
+- Além disso, o notebook do tutorial oficial apresenta algumas falhas e, para que funcione corretamente, é necessário realizar diversos ajustes. Bem como, devido ao grande volume de dados e à quantidade de parâmetros utilizados, a execução leva mais de 10 horas quando não se dispõe de uma estrutura mais potente.
 
 - **Trade-offs:** Durante a implementação, foi necessário equilibrar o tamanho dos batches com a memória disponível. Batches menores reduziram significativamente o uso de memória, permitindo rodar o modelo em máquinas com recursos limitados, mas também aumentaram o tempo total de treinamento. Encontrar esse equilíbrio foi fundamental para otimizar o desempenho sem comprometer a execução.
 
